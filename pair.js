@@ -58,21 +58,21 @@ router.get('/', async (req, res) => {
 
                let SIGMA_MD_TEXT = `
 *𝙎𝙀𝙎𝙎𝙄𝙊𝙉 𝙄𝙎 𝙊𝙉𝙇𝙄𝙉𝙀*
-*NJUBA-MD*
+*MWTU-MD
 *☢*
 ____________________________________
 ╔════◇
-║『 NJUBA MD』
+║『 MWTU-MD』
 ║ 
 ╚════════════════════╝
 ╔═════◇
 ║ 『••• OWNER INFO •••』
 
-║ ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaZDD8S2UPBDHMF7rq3C_
+║ ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaamqHTJP212NuXUc40F_
 
-║ ❒ Owner: _https://wa.me/256742477536_
+║ ❒ Owner: _https://wa.me/254716490732_
 ╚════════════════════╝ 
- *NJUBA-MD*
+ *MWTU-MD*
 ___________________________________
 
 
