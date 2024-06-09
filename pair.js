@@ -57,26 +57,32 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 
                let SIGMA_MD_TEXT = `
-*𝙎𝙀𝙎𝙎𝙄𝙊𝙉 𝙄𝙎 𝙊𝙉𝙇𝙄𝙉𝙀*
-*MWTU-MD
-*☢*
+*𝗕𝗔𝗥𝗔𝗞𝗔 𝗠𝗗 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗*
+*𝗕𝗔𝗥𝗔𝗞𝗔_𝗧𝗘𝗖𝗛*
+*𝗟𝗘𝗚𝗜𝗧_𝗕𝗢𝗧*
 ____________________________________
 ╔════◇
-║『 MWTU-MD』
-║ 
-╚════════════════════╝
+║『 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥𝗦』
+
+║ ❒Baraka bega  : _https://wa.me/255762190568_
+
+║ ❒ *Ibrahim Adams*: _https://wa.me/message/74F2PC4JA4F3P1_
+
+╚════════════════════❒
 ╔═════◇
-║ 『••• OWNER INFO •••』
+║ 『••• 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 •••』
+║ ❒ 𝗬𝗼𝘂𝘁𝘂𝗯𝗲: _https://www.youtube.com/@ibrahimaitech_
 
-║ ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaamqHTJP212NuXUc40F_
+║ ❒ 𝗢𝘄𝗻𝗲𝗿: _https://wa.me/255762190568_
 
-║ ❒ Owner: _https://wa.me/254716490732_
+║ ❒ 𝗪𝗮𝗰𝗵𝗮𝗻𝗻𝗲𝗹: _https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y_
+
+║ 
 ╚════════════════════╝ 
- *MWTU-MD*
+ *𝗕𝗔𝗥𝗔𝗞𝗔_𝗠𝗗*
 ___________________________________
 
-
-Don't Forget To Give Star To My Repo`
+Don't Forget To Give Star🌟 To My Repo`
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
 
