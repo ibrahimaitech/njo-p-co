@@ -66,8 +66,8 @@ router.get('/', async (req, res) => {
 
 ❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
 ║𝑭𝒐𝒓 𝒎𝒐𝒓𝒆 𝒊𝒏𝒇𝒐 𝒕𝒂𝒑 𝒐𝒏 𝒕𝒉𝒆 𝒍𝒊𝒏𝒌 𝒃𝒆𝒍𝒐𝒘
+║https://github.com/IBRAHIM-TECH-AI/IBRAHIM-ADAMS-INFO
 ║https://github.com/ibrahimaitech/BARAKA-XMD
-║https://github.com/ibrahimaitech/BMW-MD
 
 ❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
 ║𝑭𝒐𝒓 𝒂𝒏𝒚 𝒑𝒓𝒐𝒃𝒍𝒆𝒎 𝒕𝒆𝒙𝒕 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓𝒔
