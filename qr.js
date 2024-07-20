@@ -62,21 +62,21 @@ router.get('/', async (req, res) => {
 *𝐁𝐀𝐑𝐀𝐊𝐀_𝐌𝐃 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃*
 
 ❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
-║𝑭𝒐𝒍𝒍𝒐𝒘 𝒕𝒉𝒊𝒔 𝒘𝒂𝒄𝒉𝒂𝒏𝒏𝒆𝒍 𝒇𝒐𝒓 𝒃𝒐𝒕 𝒖𝒑𝒅𝒂𝒕𝒆𝒔
-║https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y
-║https://www.youtube.com/@ibrahimaitech
+`𝑭𝒐𝒍𝒍𝒐𝒘 𝒕𝒉𝒊𝒔 𝒘𝒂𝒄𝒉𝒂𝒏𝒏𝒆𝒍 𝒇𝒐𝒓 𝒃𝒐𝒕 𝒖𝒑𝒅𝒂𝒕𝒆𝒔`
+> https://whatsapp.com/channel/0029Vail87sIyPtQoZ2egl1h
+> https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y
 
 ❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
-║𝑭𝒐𝒓 𝒎𝒐𝒓𝒆 𝒊𝒏𝒇𝒐 𝒕𝒂𝒑 𝒐𝒏 𝒕𝒉𝒆 𝒍𝒊𝒏𝒌 𝒃𝒆𝒍𝒐𝒘
-║https://github.com/IBRAHIM-TECH-AI/IBRAHIM-ADAMS-INFO
-║https://github.com/ibrahimaitech/BARAKA-XMD
+`𝑭𝒐𝒓 𝒎𝒐𝒓𝒆 𝒊𝒏𝒇𝒐 𝒕𝒂𝒑 𝒐𝒏 𝒕𝒉𝒆 𝒍𝒊𝒏𝒌 𝒃𝒆𝒍𝒐𝒘`
+> https://github.com/Barakabega/BARAKA-MD-V2 
+> https://github.com/devibraah/BWM-XMD
 
 ❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
-║𝑭𝒐𝒓 𝒂𝒏𝒚 𝒑𝒓𝒐𝒃𝒍𝒆𝒎 𝒕𝒆𝒙𝒕 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓𝒔
-║https://wa.me/message/I6BCZA76PFIYH1
-║https://wa.me/message/74F2PC4JA4F3P1
+`𝑭𝒐𝒓 𝒂𝒏𝒚 𝒑𝒓𝒐𝒃𝒍𝒆𝒎 𝒕𝒆𝒙𝒕 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓𝒔`
+> https://wa.me/message/74F2PC4JA4F3P1
+> https://wa.me/message/YM6C4JKEXQXRG1
 
-*𝐌𝐀𝐃𝐄 𝐁𝐘 𝐁𝐀𝐑𝐀𝐊𝐀 𝐁𝐄𝐆𝐀* ❒❒❒❒❒❒❒`
+*𝐌𝐀𝐃𝐄 𝐁𝐘 𝐁𝐀𝐑𝐀𝐊𝐀 𝐁𝐄𝐆𝐀* ❒❒❒❒❒❒❒
 					
 	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
 
