@@ -41,7 +41,7 @@
 
     .input-container {
       display: flex;
-      background: linear-gradient(45deg, #007bff 0%, #32CD32 100%); /* Blue and blue gradient background */
+      background: linear-gradient(45deg, #007bff 0%, #32CD32 100%); /* White and blue gradient background */
       border-radius: 1rem;
       padding: 0.3rem;
       gap: 0.3rem;
@@ -69,7 +69,7 @@
     .input-container button {
       flex-basis: 25%;
       padding: 1rem;
-      background: linear-gradient(135deg, #32CD32 0%, #007bff 100%); /* Blue and blue gradient background */
+      background: linear-gradient(135deg, #32CD32 0%, #007bff 100%); /* Blue and white gradient background */
       font-weight: 900;
       letter-spacing: 0.3rem;
       text-transform: uppercase;
@@ -81,7 +81,7 @@
     }
 
     .input-container button:hover {
-      background: linear-gradient(135deg, #007bff 0%, #32CD32 100%); /* Blue and blue gradient on hover */
+      background: linear-gradient(135deg, #007bff 0%, #32CD32 100%); /* White and blue gradient on hover */
     }
 
     .centered-text {
@@ -102,7 +102,7 @@
             <h6 class="centered-text">𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑾𝒉𝒂𝒕𝒔𝒂𝒑𝒑 𝑵𝒖𝒎𝒃𝒆𝒓 𝑾𝒊𝒕𝒉 𝑪𝒐𝒖𝒏𝒕𝒓𝒚 𝑪𝒐𝒅𝒆 𝑾𝒊𝒕𝒉𝒐𝒖𝒕 (+).</h6>
             <h6 class="centered-text">𝑴𝑨𝑫𝑬 𝑩𝒀 𝑩𝑨𝑹𝑨𝑲𝑨 𝑩𝑬𝑮𝑨</h6>
             <div class="input-container">
-                <input placeholder="Eg 255xxxxxxxx" type="number" id="number" placeholder="Enter Your Whatsapp Number With Country Code Without (+)." name="">
+                <input placeholder="Eg 255xxxxxxxx" type="number" id="number" placeholder="𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑾𝒉𝒂𝒕𝒔𝒂𝒑𝒑 𝑵𝒖𝒎𝒃𝒆𝒓 𝑾𝒊𝒕𝒉 𝑪𝒐𝒖𝒏𝒕𝒓𝒚 𝑪𝒐𝒅𝒆 𝑾𝒊𝒕𝒉𝒐𝒖𝒕 (+)." name="">
                 <button id="submit">Enter</button>
             </div>
             <a id="waiting-message" class="centered-text" style="display: none;">Getting Code...</a>
@@ -140,9 +140,9 @@
     b.addEventListener("click", async (e) => {
       e.preventDefault();
       if (!c.value) {
-        a.innerHTML = '<a style="color: red; font-weight: bold;">𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑾𝒉𝒂𝒕𝒔𝒂𝒑𝒑 𝑵𝒖𝒎𝒃𝒆𝒓 𝑾𝒊𝒕𝒉 𝑪𝒐𝒖𝒏𝒕𝒓𝒚 𝑪𝒐𝒅𝒆 𝑾𝒊𝒕𝒉𝒐𝒖𝒕 (+).</a><br><br>';
+        a.innerHTML = '<a style="color: white; font-weight: bold;">𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑾𝒉𝒂𝒕𝒔𝒂𝒑𝒑 𝑵𝒖𝒎𝒃𝒆𝒓 𝑾𝒊𝒕𝒉 𝑪𝒐𝒖𝒏𝒕𝒓𝒚 𝑪𝒐𝒅𝒆 𝑾𝒊𝒕𝒉𝒐𝒖𝒕 (+).</a><br><br>';
       } else if (c.value.replace(/[^0-9]/g, "").length < 11) {
-        a.innerHTML = '<a style="color: red; font-weight: bold;">Invalid Number Format</a><br><br>';
+        a.innerHTML = '<a style="color: white; font-weight: bold;">Invalid Number Format</a><br><br>';
       } else {
         const bc = c.value.replace(/[^0-9]/g, "");
         let bb = "";
