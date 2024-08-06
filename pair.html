@@ -164,7 +164,7 @@
         a.innerHTML = '<a style="color: white; font-weight: bold;">Generating Code...</a><br><br>';
         let { data } = await axios(`/code?number=${bc}`);
         let code = data.code || "Service is Currently Unavailable";
-        a.innerHTML = '<font id="copy" onclick="Copy()" style="color: white; font-weight: bold;" size="5">YOUR CODE: <span style="color: white; font-weight: bold;">' + code + '</span></font><br><br><br>';
+        a.innerHTML = '<font id="copy" onclick="Copy()" style="color: white; font-weight: bold;" size="5">𝒀𝑶𝑼𝑹 𝑪𝑶𝑫𝑬: <span style="color: white; font-weight: bold;">' + code + '</span></font><br><br><br>';
       }
     });
   </script>
