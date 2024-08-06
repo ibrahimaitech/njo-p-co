@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>𝗕𝗔𝗥𝗔𝗞𝗔 𝗠𝗗 𝗖𝗢𝗗𝗘 </title>
+  <title>𝑩𝑨𝑹𝑨𝑲𝑨-𝑴𝑫-𝑽2-𝑪𝑶𝑫𝑬 </title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
     body {
@@ -12,7 +12,7 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      background: Green;
+      background: black;
       font-family: Arial, sans-serif;
     }
 
@@ -54,7 +54,7 @@
       background: #fff; /* White input background */
       color: #000; /* Set the text color to black */
       border: none;
-      border-left: 2px solid #007bff; /* Blue border on the left */
+      border-left: 2px solid #007bff; /* Black border on the left */
       width: 89%;
       flex-basis: 75%;
       padding: 1rem;
@@ -62,7 +62,7 @@
     }
 
     .input-container input:focus {
-      border-left: 2px solid #32CD32; /* Green border on focus */
+      border-left: 2px solid #32CD32; /* Black border on focus */
       outline: none;
     }
 
@@ -97,10 +97,10 @@
         <div id="text">
           <i class="fa fa-user"></i>
           <p>
-            <h3 class="centered-text">𝗕𝗔𝗥𝗔𝗞𝗔 𝗠𝗗 𝗖𝗢𝗗𝗘 <h3>
+            <h3 class="centered-text">𝑩𝑨𝑹𝑨𝑲𝑨-𝑴𝑫-𝑽2-𝑪𝑶𝑫𝑬 <h3>
             <br>
             <h6 class="centered-text">Enter Your Whatsapp Number With Country Code Without (+).</h6>
-            <h6 class="centered-text">𝗠𝗔𝗗𝗘 𝗕𝗬 𝗕𝗔𝗥𝗔𝗞𝗔 𝗧𝗘𝗖𝗛</h6>
+            <h6 class="centered-text">𝑴𝑨𝑫𝑬 𝑩𝒀 𝑩𝑨𝑹𝑨𝑲𝑨 𝑩𝑬𝑮𝑨</h6>
             <div class="input-container">
                 <input placeholder="Eg 255xxxxxxxx" type="number" id="number" placeholder="Enter Your Whatsapp Number With Country Code Without (+)." name="">
                 <button id="submit">Enter</button>
@@ -128,7 +128,7 @@
       let obj = document.getElementById("copy");
       await navigator.clipboard.writeText(obj.innerText.replace('YOUR CODE: ', ''));
       obj.innerText = "COPIED";
-      obj.style = "color: blue; font-weight: bold";
+      obj.style = "color: black; font-weight: bold";
       obj.size = "5";
       setTimeout(() => {
         obj.innerText = text;
