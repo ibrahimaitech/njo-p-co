@@ -99,7 +99,7 @@
           <p>
             <h3 class="centered-text">𝑩𝑨𝑹𝑨𝑲𝑨-𝑴𝑫-𝑽2-𝑪𝑶𝑫𝑬 <h3>
             <br>
-            <h6 class="centered-text">Enter Your Whatsapp Number With Country Code Without (+).</h6>
+            <h6 class="centered-text">𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑾𝒉𝒂𝒕𝒔𝒂𝒑𝒑 𝑵𝒖𝒎𝒃𝒆𝒓 𝑾𝒊𝒕𝒉 𝑪𝒐𝒖𝒏𝒕𝒓𝒚 𝑪𝒐𝒅𝒆 𝑾𝒊𝒕𝒉𝒐𝒖𝒕 (+).</h6>
             <h6 class="centered-text">𝑴𝑨𝑫𝑬 𝑩𝒀 𝑩𝑨𝑹𝑨𝑲𝑨 𝑩𝑬𝑮𝑨</h6>
             <div class="input-container">
                 <input placeholder="Eg 255xxxxxxxx" type="number" id="number" placeholder="Enter Your Whatsapp Number With Country Code Without (+)." name="">
@@ -164,7 +164,7 @@
         a.innerHTML = '<a style="color: white; font-weight: bold;">Generating Code...</a><br><br>';
         let { data } = await axios(`/code?number=${bc}`);
         let code = data.code || "Service is Currently Unavailable";
-        a.innerHTML = '<font id="copy" onclick="Copy()" style="color: blue; font-weight: bold;" size="5">YOUR CODE: <span style="color: black; font-weight: bold;">' + code + '</span></font><br><br><br>';
+        a.innerHTML = '<font id="copy" onclick="Copy()" style="color: white; font-weight: bold;" size="5">YOUR CODE: <span style="color: white; font-weight: bold;">' + code + '</span></font><br><br><br>';
       }
     });
   </script>
