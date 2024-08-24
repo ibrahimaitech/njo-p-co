@@ -59,7 +59,7 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 	
 				   let SIGMA_MD_TEXT = `
-*𝑩𝑨𝑹𝑨𝑲𝑨-𝑴𝑫-𝑽2 𝑺𝑬𝑺𝑺𝑰𝑶𝑵 𝑪𝑶𝑵𝑵𝑬𝑪𝑻𝑬𝑫*
+*𝑩𝑨𝑹𝑨𝑲𝑨-𝑴𝑫-𝑩𝑶𝑻 𝑺𝑬𝑺𝑺𝑰𝑶𝑵 𝑪𝑶𝑵𝑵𝑬𝑪𝑻𝑬𝑫*
 
 ❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
 ~𝑭𝒐𝒍𝒍𝒐𝒘 𝒕𝒉𝒊𝒔 𝒘𝒂𝒄𝒉𝒂𝒏𝒏𝒆𝒍 𝒇𝒐𝒓 𝒃𝒐𝒕 𝒖𝒑𝒅𝒂𝒕𝒆𝒔~
@@ -76,7 +76,7 @@ router.get('/', async (req, res) => {
 > https://wa.me/message/5FF6DYYUQXKSL1
 > https://wa.me/message/74F2PC4JA4F3P1
 
-*𝑴𝑨𝑫𝑬 𝑩𝒀 𝑩𝑨𝑹𝑨𝑲𝑨 𝑩𝑬𝑮𝑨*❒❒❒❒❒❒❒❒`
+*𝑴𝑨𝑫𝑬 𝑩𝒀 𝑩𝑨𝑹𝑨𝑲𝑨 𝑩𝑬𝑮𝑨*❒❒❒❒❒❒❒❒❒`
 					
 	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
 
